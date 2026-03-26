@@ -33,7 +33,7 @@ class UltrasonicSensorComponent : public sensor::Sensor, public PollingComponent
   /// Set the time in µs the trigger pin should be enabled for in µs, defaults to 10µs (for HC-SR04)
   void set_pulse_time_us(uint32_t pulse_time_us) { this->pulse_time_us_ = pulse_time_us; }
   /// Set the maximum time in µs to wait for the echo pulst to start
-  void set_start_timeout_us(uint32_t timeout_us) { this->start_timeout_us_ = start_timeout_us; }
+  void set_start_timeout_us(uint32_t start_timeout_us) { this->start_timeout_us_ = start_timeout_us; }
 
  protected:
   /// Helper function to convert the specified echo duration in µs to meters.

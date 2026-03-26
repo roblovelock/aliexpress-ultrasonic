@@ -98,7 +98,7 @@ void UltrasonicSensorComponent::dump_config() {
                 "  Pulse time: %" PRIu32 " µs\n"
                 "  Timeout: %" PRIu32 " µs\n"
                 "  Start Timeout: %" PRIu32 " µs",
-                this->pulse_time_us_, this->timeout_us_, this.start_timeout_us_);
+                this->pulse_time_us_, this->timeout_us_, this->start_timeout_us_);
   LOG_UPDATE_INTERVAL(this);
 }
 
