@@ -1,4 +1,4 @@
-#include "ultrasonic_sensor.h"
+#include "aliexpress_ultrasonic_sensor.h"
 #include "esphome/core/hal.h"
 #include "esphome/core/log.h"
 
