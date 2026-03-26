@@ -2,7 +2,7 @@
 #include "esphome/core/hal.h"
 #include "esphome/core/log.h"
 
-namespace esphome::ultrasonic {
+namespace esphome::aliexpress_ultrasonic {
 
 static const char *const TAG = "aliexpress_ultrasonic.sensor";
 
