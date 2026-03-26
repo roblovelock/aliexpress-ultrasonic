@@ -58,7 +58,7 @@ void UltrasonicSensorComponent::loop() {
 
   if (!this->store_.echo_start) {
     uint32_t elapsed = micros() - this->measurement_start_us_;
-    if (elapsed >= this.start_timeout_us_) {
+    if (elapsed >= this->start_timeout_us_) {
       ESP_LOGW(TAG, "'%s' - Measurement start timed out", this->name_.c_str());
       this->publish_state(NAN);
       this->measurement_pending_ = false;
